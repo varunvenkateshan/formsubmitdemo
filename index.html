@@ -17,9 +17,10 @@
         <h1>Apply for a Job!</h1>
         <p>Something goes here</p>
 
-        <form action="https://formsubmit.co/3caf48d98a6639bcae89cfffc4b57f9e" method="POST">
+        <form action="https://formsubmit.co/3caf48d98a6639bcae89cfffc4b57f9e" method="POST" enctype="multipart/form-data">
             <input type="text" name="_honey" style="display: none;">
             <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="https://varunvenkateshan.github.io/formsubmitdemo/success.html">
 
             <div class="form-field">
                 <label for="First&nbsp;Name">First Name:</label>
@@ -47,11 +48,11 @@
                 </select>
             </div>
             <div class="form-field">
-                <!--
-                <label for="resume">Resume: </label>
-                <input type="file" id="resume" name="resume" />
+                
+                <label for="Resume">Resume: </label>
+                <input type="file" id="Resume" name="Resume" />
                 <br><br>
-                -->
+               
             </div>
             <div class="form-field" id="submit">
                 <input type="submit" value="Submit">
