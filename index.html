@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,700|Varela+Round:100,400" rel="stylesheet">
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="192x192" href="/resources/android-icon-192x192.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+    <div class="career-form">
+        <h1>Apply for a Job!</h1>
+        <p>Something goes here</p>
+
+        <form target="_blank" action="https://formsubmit.co/varunvenkateshan@gmail.com" method="POST">
+
+            <div class="form-field">
+                <label for="fname">First Name:</label>
+                <input type="text" placeholder="John" name="fname" id="fname" required>
+            </div>
+            <div class="form-field">
+                <label for="lname">Last Name:</label>
+                <input type="text" placeholder="Doe" name="lname" id="lname" required>
+            </div>
+            <div class="form-field">
+                <label for="email">Email:</label>
+                <input type="email" placeholder="jdoe@example.com" name="email" id="email" required>
+            </div>
+            <div class="form-field">
+                <label for="phone">Phone Number:</label>
+                <input type="text" placeholder="(123) 123-1234" name="phone" id="phone" required>
+            </div>
+            <div class="form-field">
+                <label for="future">Will you now or in the future require sponsorship for employment visa
+                    status?</label>
+                <select name="future" id="future" required>
+                    <option value=""></option>
+                    <option value="Yes">Yes</option>
+                    <option value="No">No</option>
+                </select>
+            </div>
+            <div class="form-field">
+                <!--
+                <label for="resume">Resume: </label>
+                <input type="file" id="resume" name="resume" />
+                <br><br>
+                -->
+            </div>
+            <div class="form-field" id="submit">
+                <input type="submit" value="Submit">
+            </div>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
